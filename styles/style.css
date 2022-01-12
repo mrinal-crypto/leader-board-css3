@@ -142,6 +142,8 @@ hr{
     /* display: flex; */
     background-color: #ff8492;
     border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
 }
 .duration{
     color: #fa2222;
