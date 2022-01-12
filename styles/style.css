@@ -92,6 +92,10 @@ hr{
 .top-courses{
     margin-top: 21px;
 }
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .course{
     width: 252px;
     padding: 10px;
@@ -112,6 +116,11 @@ hr{
     color: #ED6B4F;
     font-size: 15px;
 }
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .stars p i{
     width: 12px;
     height: 12px;
@@ -126,4 +135,14 @@ hr{
 .ratings{
     color: #AEAEAE;
     margin-left: 2px;
+}
+.clock{
+    width: 95px;
+    height: 30px;
+    /* display: flex; */
+    background-color: #ff8492;
+    border-radius: 15px;
+}
+.duration{
+    color: #fa2222;
 }
